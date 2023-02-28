@@ -10,7 +10,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="./assets/images"
+      href="./assets/images/custom_video_player_screenshot.png"
       alt="Video Player icon"
     />
     <link rel="stylesheet" href="./assets/develop/style.css" />
@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="player">
-      <video class="player__video viewer" src="./working/652333414.mp4"></video>
+      <video class="player__video viewer" src="./working/video.mp4"></video>
 
       <div class="player__controls">
         <div class="progress">
@@ -28,6 +28,7 @@
         <input
           type="range"
           name="volume"
+          title="Volume"
           class="player__slider"
           min="0"
           max="1"
@@ -37,17 +38,22 @@
         <input
           type="range"
           name="playbackRate"
+          title="Playback Rate"
           class="player__slider"
           min="0.5"
           max="2"
           step="0.1"
           value="1"
         />
-        <button data-skip="-10" class="player__button">« 10s</button>
-        <button data-skip="25" class="player__button">25s »</button>
+        <button data-skip="-10" class="player__button" title="Skip Backward">
+          « 10s
+        </button>
+        <button data-skip="10" class="player__button" title="Skip Forward">
+          10s »
+        </button>
       </div>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="./assets/develop/scripts.js"></script>
   </body>
 </html>

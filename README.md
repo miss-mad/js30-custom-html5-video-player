@@ -9,11 +9,11 @@
 
 ## Description
 
-Created with only Vanilla JavaScript.
+A video player with custom built controls to scrub, skip, speed up, adjust sound, and play/pause. Created with only Vanilla JavaScript.
 
 ## Usage
 
-![Custom HTML5 Video Player screenshot 1](./assets/images)
+![Custom HTML5 Video Player screenshot 1](./assets/images/custom_video_player_full_screenshot.png)
 
 ## Credits
 
